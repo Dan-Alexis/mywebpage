@@ -1,0 +1,241 @@
+body {
+  background-color: #e3e6ea;
+  color: #40514e ;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+
+
+h1 {
+  width: 20%;
+  margin: 0 auto;
+  padding-top: 9.375rem;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+
+  color: #1982bf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+
+    color: #1982bf;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 0.313rem;
+  width: 7% ;
+  margin: 6.25rem auto;
+}
+
+
+
+a {
+  color: #11999e;
+  margin: 0.625rem 1.25rem;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #e1f2fb;
+}
+
+.intro{
+  width: 50%;
+  margin: 0 auto 0;
+  line-height:2;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 9.375rem;
+  width: 9.375rem;
+  margin: 5rem auto 0.625rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.mountain {
+  margin: 0 auto;
+  height: 25rem;
+  width: 37.5rem
+}
+
+.cloud1 {
+  height: 7.813rem;
+  width: 9.375rem;
+  top: 3.125rem;
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+.cloud2 {
+
+  height: 7.813rem;
+  width: 9.375rem;
+  margin-right: auto;
+  bottom: 31.25rem;
+  align-self: center;
+}
+
+.top-design{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:flex-end;
+  margin-top: 12.5rem;
+
+}
+
+.troubleshoot {
+  width: 11.25rem;
+  margin-right: 1.875rem;
+  margin-top: 1.875rem;
+}
+
+.repair {
+  width: 11.25rem;
+  margin-left: 1.875rem;
+  margin-top: 1.25rem;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 4.688rem auto 9.375rem;
+  line-height:2;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 4.688rem auto 9.375rem;
+  line-height:2;
+  display:flex;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
+}
+
+
+.middle-container{
+  margin: 6.25rem 0;
+}
+
+.clear1{
+  text-align: left;
+}
+
+.clear2{
+  text-align: right;
+}
+
+.description{
+  max-width: 18.75rem;
+}
+
+.tools{
+  order: 2
+}
+
+.tools1{
+  order: 1
+}
+
+.contact-message{
+  width: 40%;
+  margin: 2.5rem auto 2.5rem;
+  line-height: 2;
+}
+
+.getInTouch{
+  margin-bottom: 4.688rem;
+}
+
+.bottom-container{
+  margin: 0;
+  background-color: #66bfbf;
+  padding: 3.125rem 0 1.25rem;
+
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 1.25rem 0;
+}
+
+.btn {
+	-moz-box-shadow:inset 5px -5px 0 0 #bbdaf7;
+	-webkit-box-shadow:inset 5px -5px 0 0 #bbdaf7;
+	box-shadow:inset 5px -5px 0 0 #bbdaf7;
+	background-color:#11999e;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0 #528ecc;
+}.btn:hover {
+	background-color:#378de5;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+.footer{
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0 0.5rem 0 0 ;
+  border-radius: 20%;
+}
+
+.footer-link{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fl{
+  align-self: center;
+}
+
+.links{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
